@@ -1,0 +1,50 @@
+body{
+  background:linear-gradient(to right,rgba(75, 244, 232, 0.767) ,rgba(197, 78, 189, 0.285));
+}
+div{
+  background:linear-gradient(to right,rgb(226, 97, 209) 50%,rgb(71, 140, 152));
+  opacity:0.8;
+  margin:auto;
+  padding:38px;
+  width:450px;
+  height: 670px;
+  border-radius:20px;
+  box-shadow:7px 5px 6px 6px black;
+
+}
+h2{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size: 26px;
+  color:rgb(138, 2, 79);
+
+}
+hr{
+  height:6px;
+  width:auto;
+  background-color: rgb(11, 95, 230);
+
+}
+label{
+  color:rgb(5, 45, 100);
+  font-size:20px;
+  font-family: sans-serif;
+
+}
+.input{
+  font-size: 20px;
+  background:linear-gradient(to left,rgb(225, 177, 189) ,#5df7cb);
+  text-align: center;
+}
+#button{
+  width: 160px;
+  font-size: 25px;
+  text-align:center;
+  color:rgb(246, 140, 140);
+  background:linear-gradient(to top,rgb(196, 19, 83),rgb(16, 31, 235));
+  border-radius: 7px;
+}
+#button:hover{
+  background:linear-gradient(to top,rgb(176, 34, 69) ,#dc27c1);
+  color:#5df7cb;
+}

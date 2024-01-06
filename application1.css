@@ -1,0 +1,33 @@
+body{
+	background-image: url("D:/HTML/HTML Notes/image/s7.jpg");
+	background-size: cover;
+
+}
+#side{
+	display: inline-block;
+}
+#main{
+	font-family: cursive;
+	color: black;
+	font-weight: bold;
+}
+#btn{
+	color: white;
+	text-align: center;
+}
+#btn:hover{
+	background-color: black;
+}
+#sub{
+	color: darkblue;
+	font-weight: bold;
+	font-family: algerian;
+	font-size: 20px;
+}
+span{
+	color: red;
+}
+#main2{
+	margin: auto;
+	width: 600px;
+}

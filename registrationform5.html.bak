@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Form</title>
+    <link rel="icon" href="images/register.png">
+    <link rel="stylesheet" href="registrationstyle.css">
+  </head>
+  <body>
+    <div>
+    <h2>Student Registration Form</h2><hr>
+    <form>
+    <table> 
+    <tr><td><label>First Name:</label></td><td><input class="input" type="text" name="fname" id="name" placeholder="Enter Your First Name" required ></td></tr>
+    <tr><td><label>Last Name:</label></td><td><input class="input" type="text" name="lname" id="name" placeholder="Enter Your Last Name" required ></td></tr>
+    <tr><td><label>Father Name:</label></td><td><input class="input" type="text" name="fathername" id="fathername" placeholder="Enter Your Father Name" required></td></tr>
+    <tr><td><label>Gender:</label></td><td>
+    <input class="input" type="radio" name="gender" value="male">Male</input> 
+    <input class="input" type="radio" name="gender" value="female">Female</input>
+    <input class="input" type="radio" name="gender" value="others">Others</input>
+    </td></tr>
+    <tr><td><label>Hobbies:</label></td><td>
+      <input class="input" type="checkbox" name="hobbies" value="chess">Chess</input> 
+      <input class="input" type="checkbox" name="hobbies" value="cricket">Cricket</input>
+      <input class="input" type="checkbox" name="hobbies" value="football">Football</input><br>
+      <input class="input" type="checkbox" name="hobbies" value="painting">Painting</input>
+      <input class="input" type="checkbox" name="hobbies" value="singing">Singing</input>
+      <input class="input" type="checkbox" name="hobbies" value="others">Others</input>
+    </td></tr>
+    <tr><td><label>Date Of Birth:</label></td><td><input class="input" type="date" name="dob" id="dob" required> </td></tr>
+    <tr><td><label>Phone No:</label></td><td><input class="input" type="number" name="mobile" id="mobile" placeholder="only 10 digits are allowed"  required></td></tr>
+    <tr><td><label>Email:</label></td><td><input class="input" type="email" name="email" id="email" placeholder="Enter Your Email" required> </td></tr>
+    <tr><td><label>State:</label></td><td>
+    <select class="input" name="state" id="state">
+      <option value="">Select State</option>
+      <option value="Odisha">Odisha</option>
+      <option value="Andhra Pradesh">Andhra Pradesh</option>
+      <option value="Maharastra">Maharastra</option>
+      <option value="Tamilnadu">Tamilnadu</option>
+      <option value="Karnataka">Karnataka</option>
+    </select></td></tr>
+    </td></tr>
+    <tr><td><label>City:</label></td><td>
+    <select class="input" name="city" id="city">
+      <option value="">Select City</option>
+      <option value="Puri">Puri</option>
+      <option value="Bhubaneswar">Bhubaneswar</option>
+      <option value="Cuttack">Cuttack</option>
+      <option value="Visakhapatnam">Visakhapatnam</option>
+      <option value="Vijaywada">Vijaywada</option>
+      <option value="Guntur">Guntur</option>
+      <option value="Mumbai">Mumbai</option>
+      <option value="Pune">Pune</option>
+      <option value="Nagpur">Nagpur</option>
+      <option value="Chennai">Chennai</option>
+      <option value="Coimbatore">Coimbatore</option>
+      <option value="Kanchipuram">Kanchipuram</option>
+      <option value="Bengaluru">Bengaluru</option>
+      <option value="Mysore">Mysore</option>
+      <option value="Manglore">Manglore</option>
+    </select></td></tr>
+    <br>
+    <tr><td><label>Pincode:</label></td><td><input class="input" type="number" name="pincode" id="pincode" placeholder="Enter 6 digit pincode" max="6" required></td></tr>
+    <tr><td><label>Address:</label></td><td><textarea class="input" name="address" cols="21" rows="3"></textarea></td></tr>
+    <tr><td><label>Password:</label></td><td><input class="input" type="password" name="pwd" id="pwd" placeholder="Enter Password" required> <tr><td></td></tr>
+    <tr><td><label>Confirm Password:</label></td><td><input class="input" type="password" name="cnfpwd" id="cnfpwd" placeholder="Confirm Password" required> </td></tr>
+    </table><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input id="button" class="submit" type="button" value="Submit"></input>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input id="button" class="reset" type="reset" value="Reset"></input>
+    </form>
+    </div>
+  </body>
+</html>

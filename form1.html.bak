@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <link rel ="stylesheet" href="loginstyle.css"/>
+  <title>Document</title>
+ </head>
+ <body>
+ <form>
+ <table>
+
+  <caption><h2 style="color:red"> REGISTRATION FORM</h2></caption>
+  <tr>
+  <th>ID:</th>
+  <th><input type="text"/></th>
+  </tr>
+  <tr>
+  <th>NAME: </th>
+  <th><input type="text"/></th>
+  <tr>
+
+  <tr>
+  <th>COURSE:</th>
+  <th><input type="type"/></th>
+  </tr>
+  <tr>
+  <th>BRANCH:</th>
+  <th><input type ="text"/></th>
+  </tr>
+  <tr>
+  <th>ROLL NO:</th>
+  <th><input type="number" maxlength="10"/></th>
+  </tr>
+  <tr>
+  <th>EMAIL: </th>
+  <th><input type="email"/></th>
+  </tr>
+  <tr>
+  <th>USER_NAME:</th>
+  <th><input type="text"/></th>
+  </tr>
+
+  <tr>
+  <th>ABOUT US:</th>
+  <th><textarea></textarea></th>
+  </tr>
+  <tr>
+  <th> PASSWORD:</th>
+  <th><input type="password"/></th>
+  </tr>
+  <tr>
+  <th>                 </th>
+  <th><input type="submit"/></th>
+  </tr>
+  </form>
+ </body>
+</html>

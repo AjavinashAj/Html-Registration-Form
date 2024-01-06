@@ -1,0 +1,55 @@
+<!DOCTYPE html> 
+<HTML LANG="en"> 
+<head>  
+    <title>APPLICATION FORM</title>
+    <link rel="icon" href="logo.jpg"/>
+    <link rel="stylesheet" href="application.css"/>    
+</head>  
+<body>  
+<form>  
+  <div class="container">  
+  <center>  <h1> Student Registration Form</h1> </center>  
+  <hr>  
+  <label> <strong>Firstname:</strong> </label>   <span>*</span>
+<input type="text" name="firstname" placeholder= "Firstname" size="15" required />   
+<label><strong> Middlename:</strong> </label>   
+<input type="text" name="middlename" placeholder="Middlename" size="15" required />   
+<label><strong> Lastname:</strong> </label>    <span>*</span>
+<input type="text" name="lastname" placeholder="Lastname" size="15"required />   
+<div>  
+<label> <strong>  Course :</strong>  </label>   
+  <select>  
+<option value="Course">Course</option>  
+<option value="BCA">BCA</option>  
+<option value="BBA">BBA</option>  
+<option value="B.Tech">B.Tech</option>  
+<option value="MBA">MBA</option>  
+<option value="MCA">MCA</option>  
+<option value="M.Tech">M.Tech</option>  
+<option value="BSC">BSC</option>
+<option value="MSC">MSC</option>
+</select>  
+</div>  
+<div>  
+<label> <strong> Gender : </strong> </label><br>  
+<input type="radio" id="gen1" value="Male" name="gender" checked > <label>Male</label>   
+<input type="radio" id="gen2" value="Female" name="gender"> <label>Female</label>   
+<input type="radio" id="gen3" value="Other" name="gender"> Other    
+</div>  
+<label><strong>Date of Birth(DD/MM/YYYY): </strong></label> <span>*</span>
+<input type="date" id="dt1" name="dob" value="dob"/> <br>
+<label> <strong>  Phone : </strong> </label>  <span>*</span>
+<input type="text" name="country code" placeholder="Country Code"  value="+91" size="2"/>   
+<input type="text" name="phone" placeholder="phone no." size="10"/ required>   
+ <label for="email"><strong>Email</strong></label>  <span>*</span>
+ <input type="text" placeholder="Enter Email" name="email" required>  
+  
+    <label for="psw"><strong>Password</strong></label>  <span>*</span>
+    <input type="password" placeholder="Enter Password" name="psw" required>  
+  
+    <label for="psw-repeat"><strong>Re-type Password</strong></label>   
+    <input type="password" placeholder="Retype Password" name="psw-repeat" required>  
+    <button type="submit" class="registerbtn">SUBMIT</button>    
+</form>  
+</body>  
+</html>  
